@@ -1,0 +1,55 @@
+.main-body-container {
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+.main-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.img-control {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.counter-style {
+  color: #ffd569;
+}
+.fruit-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fruit-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.eating-heading {
+  font-size: 25px;
+}
+.button-style {
+  padding: 8px 15px 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media all and (min-width: 786px) {
+  .main-body-container {
+    height: 100vh;
+  }
+}
